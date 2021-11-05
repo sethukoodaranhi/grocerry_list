@@ -1,0 +1,16 @@
+ {
+     "list": [
+            {"sl_no":1,"name":"sugar","quantity":"1kg","unit":1,"departments":"grocery","notes":"gud product" },
+            {"sl_no":2,"name":"Rice","quantity":"5kg","unit":2,"departments":"grocery","notes":"gud product" },
+            {"sl_no":3,"name":"tomoto","quantity":"500kg","unit":5,"departments":"vegetable","notes":"gud product" },
+            {"sl_no":4,"name":"tea powder","quantity":"3kg","unit":4,"departments":"production","notes":"gud product" },
+            {"sl_no":5,"name":"chilli powder","quantity":"4kg","unit":5,"departments":"production","notes":"gud product" },
+            {"sl_no":6,"name":"salt","quantity":"2kg","unit":4,"departments":"production","notes":"gud product" },
+            {"sl_no":7,"name":"rava","quantity":"1kg","unit":2,"departments":"production","notes":"gud product" },
+            {"sl_no":8,"name":"oil","quantity":"1 lit","unit":1,"departments":"production","notes":"gud product" },
+            {"sl_no":9,"name":"coconut oil","quantity":"2 lit","unit":1,"departments":"production","notes":"gud product" },
+            {"sl_no":10,"name":"coriander powder","quantity":"1kg","unit":1,"departments":"production","notes":"gud product" }
+
+        ]
+ }
+

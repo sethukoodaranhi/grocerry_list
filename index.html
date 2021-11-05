@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+</head>
+<body >
+    <header style="background-color: rgb(14, 192, 192); width: 100%;">
+   <div class="row">
+       <div class="col-lg-12">
+           <h2 class="text-danger text-center font-weight-bold" >Grocerry List</h2>
+       </div>
+   </div>
+</header>
+<section class="table" style="background-color: azure;">
+<div class="row">
+    <div class="col-lg-12">
+        <button class="btn btn-dark mt-3" onclick="generatelist()">Generate list</button>
+        <table border="1" class="w-100">
+            <thead>
+                <tr>
+                    <th>SL.NO</th>
+                    <th>Name</th>
+                    <th>Quantity</th>
+                    <th>Unit</th>
+                    <th>Departments</th>
+                    <th>Notes</th>
+                </tr>
+            </thead>
+            <tbody id="demo">
+
+            </tbody>
+        </table>
+    </div>
+</div>
+</section>
+
+<script src="ajax.js"></script>
+</body>
+</html>
